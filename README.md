@@ -3,6 +3,12 @@ An app created during "Udemy - React Fundamentals" course
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Installation
+
+In the project directory, run following command to get all dependencies installed:
+
+### `npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:
