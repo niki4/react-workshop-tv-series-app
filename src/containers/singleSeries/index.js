@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { fetch } from 'whatwg-fetch';
 import Loader from '../../components/loader'
 
 const SeriesDetail = ({ show }) => {

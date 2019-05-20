@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { fetch } from 'whatwg-fetch';
 import SeriesList from '../../components/seriesList'
 import Loader from '../../components/loader'
 import Intro from '../../components/intro'
@@ -26,12 +27,12 @@ class Series extends Component {
 				<Intro message="Here you can find all of your most loved series."/>
 				<div>
 					<input
-					 value={seriesName} 
-					 type="text" 
+					 value={seriesName}
+					 type="text"
 					 onChange={this.onSeriesInputChange} />
 				</div>
-				{ 
-					!isFetching && series.length === 0 && seriesName.trim() === '' 
+				{
+					!isFetching && series.length === 0 && seriesName.trim() === ''
 					&&
 					<p>Please enter series name into the input</p>
 				}
@@ -52,4 +53,4 @@ class Series extends Component {
 	}
 }
 
-export default Series; 
+export default Series;
