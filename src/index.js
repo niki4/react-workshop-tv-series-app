@@ -5,16 +5,8 @@ import App from './components/app';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
 
-// const getCurrentDate = () => {
-// 	const date = new Date();
-// 	return date.toDateString();
-// }
-
-// const greeting = <h1>Current date: {getCurrentDate()}</h1>;
-// ReactDOM.render(greeting, document.getElementById('root'));
-
 ReactDOM.render(
-	<BrowserRouter><App /></BrowserRouter>, 
+	<BrowserRouter><App /></BrowserRouter>,
 	document.getElementById('root')
 );
 
